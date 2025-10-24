@@ -1,13 +1,13 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-.chainlit/
-.python-version/
+# Ignore everything by default
+*
 
-# Virtual environments
-.venv
-.env
+# But don't ignore these files
+!.gitignore
+!chainlit.md
+!main.py
+!pyproject.toml
+!README.md
+!uv.lock
+
+
+
